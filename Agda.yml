@@ -58,4 +58,4 @@ patterns:
       name: entity.name.agda
 - # Other keywords (did not find how to split a line in YAML without it adding spaces or new lines)
   name: keyword.other.agda
-  match: '(?<=^|[[:space:]\(\){}])(abstract|constructor|data|do|eta-equality|field|forall|hiding|import|in|inductive|infix|infixl|infixr|instance|let|macro|module|mutual|no-eta-equality|open|overlap|pattern|postulate|primitive|private|public|quote|quoteContext|quoteGoal|quoteTerm|record|renaming|rewrite|syntax|tactic|unquote|unquoteDecl|unquoteDef|using|variable|where|with)(?=$|[[:space:]\(\){}])'
+  match: '(?<=^|[[:space:]\(\){}])(abstract|codata|coinductive|constructor|data|do|eta-equality|field|forall|hiding|import|in|inductive|infix|infixl|infixr|instance|interleaved|let|macro|module|mutual|no-eta-equality|opaque|open|overlap|pattern|postulate|primitive|private|public|quote|quoteTerm|record|renaming|rewrite|syntax|tactic|unfolding|unquote|unquoteDecl|unquoteDef|using|variable|where|with)(?=$|[[:space:]\(\){}])'
